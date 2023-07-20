@@ -57,7 +57,7 @@ The Morse Decoder with hash values help to translate Morse codes into human read
 
 1. To install ruby on windows using WSL:
 ```
-  - Open powershell as admin and run: wsl --install
+  - Install WSL, So Open powershell as admin and run: wsl --install
   - Restart the computer , it will continue ubuntu installation
   - Add user name and password
 ```
@@ -90,22 +90,22 @@ Clone the project using one of the options.
 Using SSH-key:
 
 ```
-git clone git@github.com:Alejuda/morse-decode.git
+git clone git@github.com:Ali-0111/Morse_translator.git
 ```
 
 Using HTTPS:
 
 ```
-git clone https://github.com/Alejuda/morse-decode.git
+git clone https://github.com/Ali-0111/Morse_translator.git
 ```
 
 ### Usage
 
 1. Ensure that Ruby is installed on your system.
 
-2. If it is first time, install WSL extention in VS code. This will let you to run Ubunto commands.
+2. If it is first time, install WSL extention in VS code. This will help to have a terminal which can run the commands.
 
-3. Run the following command to run the file:
+3. Choose the terminal (Ubunto WSL) and now you can run the following command to run the file:
 
 ```
 ruby main.rb
